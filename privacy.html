@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peak Preserve - Elevate Your Space</title>
+  <link rel="icon" href="favicon.ico">
+  <script src="https://cdn.tailwindcss.com?v=3.4.0"></script>
+  <style>
+    :root {
+      --color-background: oklch(0.92 0.01 85);
+      --color-foreground: oklch(0.25 0.02 85);
+      --color-muted: oklch(0.55 0.05 85);
+      --color-primary: oklch(0.65 0.12 85);
+      --color-primary-hover: oklch(0.58 0.12 85);
+      --color-neomorph-light: oklch(0.98 0.005 85);
+      --color-neomorph-dark: oklch(0.85 0.015 85);
+    }
+    body {
+      font-family: 'Source Sans 3', sans-serif;
+      background-color: var(--color-background);
+      color: var(--color-foreground);
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Merriweather', serif;
+      color: var(--color-foreground);
+    }
+    .shadow-dramatic {
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+    .shadow-neomorph {
+      box-shadow: 8px 8px 16px var(--color-neomorph-dark), -8px -8px 16px var(--color-neomorph-light);
+    }
+    .shadow-neomorph-inset {
+      box-shadow: inset 8px 8px 16px var(--color-neomorph-dark), inset -8px -8px 16px var(--color-neomorph-light);
+    }
+    .neomorph-surface {
+      background-color: var(--color-background);
+    }
+    .hover\:bg-shift:hover {
+      background-color: var(--color-primary-hover);
+    }
+    .section-spacing {
+      padding-block: 6rem;
+    }
+    .rounded-\[20px\] {
+      border-radius: 20px;
+    }
+    .animate-scale-on-scroll {
+      transform: scale(0.95);
+      opacity: 0.8;
+      transition: transform 0.6s ease-out, opacity 0.6s ease-out;
+    }
+    .scrolled-into-view {
+      transform: scale(1);
+      opacity: 1;
+    }
+    .btn-primary-gradient {
+        background: linear-gradient(to right, var(--color-primary), oklch(0.70 0.15 95));
+    }
+    .btn-primary-gradient:hover {
+        background: linear-gradient(to right, var(--color-primary-hover), oklch(0.63 0.15 95));
+    }
+  </style>
+</head>
+<body class="selection:bg-[var(--color-primary)] selection:text-white">
+  <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-in-out nav-transparent">
+    <nav class="container mx-auto px-4 py-4 md:py-6 flex justify-between items-center">
+      <a href="#" class="text-xl md:text-2xl font-bold text-foreground">Peak Preserve</a>
+      <button class="md:hidden text-foreground focus:outline-none" aria-label="Open navigation menu">
+        <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+          <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+        </svg>
+      </button>
+      <div class="hidden md:flex space-x-6">
+        <a href="#collections" class="text-foreground hover:text-primary transition-colors">Collections</a>
+        <a href="#bespoke" class="text-foreground hover:text-primary transition-colors">Bespoke Services</a>
+        <a href="#sustainability" class="text-foreground hover:text-primary transition-colors">Sustainability</a>
+        <a href="#consulting" class="text-foreground hover:text-primary transition-colors">Consulting</a>
+        <a href="#contact" class="text-foreground hover:text-primary transition-colors">Contact</a>
+      </div>
+    </nav>
+  </header>
+<main>
+<style>
+  #privacy-policy-section {
+    padding-top: 7rem;
+  }
+</style>
+<section id="privacy-policy-section">
+    <h2 style="font-size: 2.25rem; font-weight: 700; margin-bottom: 1.5rem; color: #333333;">Privacy Policy for Peak Preserve</h2>
+    <p style="font-size: 1rem; margin-bottom: 1rem; line-height: 1.5; color: #555555;">
+        Welcome to Peak Preserve. This Privacy Policy describes how Peak Preserve ("we," "us," or "our") collects, uses, and shares your personal information when you use our e-commerce platform for home goods, including curated shelving, bespoke furniture, home organization consulting, decor accents, and sustainable living products. Your privacy is critically important to us.
+    </p>
+
+    <h3 style="font-size: 1.75rem; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem; color: #333333;">1. Information We Collect</h3>
+    <p style="font-size: 1rem; margin-bottom: 1rem; line-height: 1.5; color: #555555;">
+        We collect various types of information to provide and improve our services to you.
+    </p>
+
+    <h4 style="font-size: 1.25rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #444444;">1.1. Personal Data You Provide Directly to Us</h4>
+    <p style="font-size: 1rem; margin-bottom: 1rem; line-height: 1.5; color: #555555;">
+        This includes information you provide when you create an account, place an order, subscribe to our newsletter, engage with our consulting services, or communicate with us.
+    </p>
+    <ul style="list-style: disc; padding-left: 1.5rem; margin-bottom: 1.5rem;">
+        <li style="font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.5; color: #555555;"><strong>Contact Information:</strong> Name, shipping address, billing address, email address, and phone number.</li>
+        <li style="font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.5; color: #555555;"><strong>Account Information:</strong> Username and password.</li>
+        <li style="font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.5; color: #555555;"><strong>Payment Information:</strong> Credit card details or other payment method information (processed by secure third-party payment processors). We do not store full payment card details on our servers.</li>
+        <li style="font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.5; color: #555555;"><strong>Order Information:</strong> Details about the products you purchase or services you engage with.</li>
+        <li style="font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.5; color: #555555;"><strong>Communications:</strong> Content of your messages to us, including customer service inquiries and feedback.</li>
+        <li style="font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.5; color: #555555;"><strong>Consulting Preferences:</strong> Information related to your home organization needs and design preferences for bespoke furniture.</li>
+    </ul>
+
+    <h4 style="font-size: 1.25rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #444444;">1.2. Information We Collect Automatically</h4>
+    <p style="font-size: 1rem; margin-bottom: 1rem; line-height: 1.5; color: #555555;">
+        When you visit or use our online platform, we automatically collect certain information about your device and usage.
+    </p>
+    <ul style="list-style: disc; padding-left: 1.5rem; margin-bottom: 1.5rem;">
+        <li style="font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.5; color: #555555;"><strong>Device Information:</strong> IP address, browser type, operating system, unique device identifiers, and mobile network information.</li>
+        <li style="font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.5; color: #555555;"><strong>Usage Information:</strong> Pages you view, products you browse, the time spent on those pages, clicks, search queries, and referring website addresses.</li>
+        <li style="font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.5; color: #555555;"><strong>Cookies and Tracking Technologies:</strong> We use cookies, web beacons, and similar technologies to enhance your experience, analyze site usage, and for marketing purposes. You can manage your cookie preferences through your browser settings.</li>
+    </ul>
+
+    <h3 style="font-size: 1.75rem; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem; color: #333333;">2. How We Use Your Information</h3>
+    <p style="font-size: 1rem; margin-bottom: 1rem; line-height: 1.5; color: #555555;">
+        We use the information we collect for various purposes, including:
+    </p>
+    <ul style="list-style: disc; padding-left: 1.5rem; margin-bottom: 1.5rem;">
+        <li style="font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.5; color: #555555;"><strong>To Provide Our Services:</strong> Fulfilling your orders, processing payments, arranging for product delivery, and delivering bespoke furniture or consulting services.</li>
+        <li style="font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.5; color: #555555;"><strong>To Improve and Personalize Your Experience:</strong> Understanding your preferences to recommend products, customize our website content, and enhance the overall user experience.</li>
+        <li style="font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.5; color: #555555;"><strong>Customer Support:</strong> Responding to your inquiries, providing assistance, and resolving issues.</li>
+        <li style="font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.5; color: #555555;"><strong>Marketing and Promotions:</strong> Sending you updates, newsletters, and promotional offers about our products and services that may be of interest to you, in accordance with your communication preferences.</li>
+        <li style="font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.5; color: #555555;"><strong>Legal and Security:</strong> Detecting and preventing fraud, complying with legal obligations, and protecting the security of our online platform and users.</li>
+        <li style="font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.5; color: #555555;"><strong>Analytics:</strong> Analyzing trends and user behavior to improve our product offerings, website functionality, and business operations.</li>
+    </ul>
+
+    <h3 style="font-size: 1.75rem; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem; color: #333333;">3. How We Share Your Information</h3>
+    <p style="font-size: 1rem; margin-bottom: 1rem; line-height: 1.5; color: #555555;">
+        We may share your personal information with third parties in the following circumstances:
+    </p>
+    <ul style="list-style: disc; padding-left: 1.5rem; margin-bottom: 1.5rem;">
+        <li style="font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.5; color: #555555;"><strong>Service Providers:</strong> We work with third-party vendors and service providers who perform services on our behalf, such as payment processing, shipping, data analysis, marketing, and customer service. These service providers are obligated to protect your information and may only use it for the purposes for which it was provided.</li>
+        <li style="font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.5; color: #555555;"><strong>Business Transfers:</strong> In the event of a merger, acquisition, or sale of all or a portion of our assets, your personal information may be transferred as part of that transaction.</li>
+        <li style="font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.5; color: #555555;"><strong>Legal Requirements:</strong> We may disclose information if required to do so by law or in response to valid requests by public authorities (e.g., a court order or government agency).</li>
+        <li style="font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.5; color: #555555;"><strong>With Your Consent:</strong> We may share your information with third parties when we have your explicit consent to do so.</li>
+        <li style="font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.5; color: #555555;"><strong>Protection of Rights:</strong> To protect the rights, property, or safety of Peak Preserve, our customers, or others.</li>
+    </ul>
+
+    <h3 style="font-size: 1.75rem; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem; color: #333333;">4. Your Privacy Rights</h3>
+    <p style="font-size: 1rem; margin-bottom: 1rem; line-height: 1.5; color: #555555;">
+        Depending on your location and applicable laws (such as GDPR), you may have certain rights regarding your personal information:
+    </p>
+    <ul style="list-style: disc; padding-left: 1.5rem; margin-bottom: 1.5rem;">
+        <li style="font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.5; color: #555555;"><strong>Right to Access:</strong> You have the right to request a copy of the personal information we hold about you.</li>
+        <li style="font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.5; color: #555555;"><strong>Right to Rectification:</strong> You have the right to request that we correct any inaccurate or incomplete personal information.</li>
+        <li style="font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.5; color: #555555;"><strong>Right to Erasure (Right to be Forgotten):</strong> You may have the right to request the deletion of your personal information, under certain conditions.</li>
+        <li style="font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.5; color: #555555;"><strong>Right to Restrict Processing:</strong> You have the right to request that we restrict the processing of your personal information, under certain conditions.</li>
+        <li style="font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.5; color: #555555;"><strong>Right to Object to Processing:</strong> You have the right to object to our processing of your personal information, under certain conditions.</li>
+        <li style="font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.5; color: #555555;"><strong>Right to Data Portability:</strong> You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.</li>
+        <li style="font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.5; color: #555555;"><strong>Right to Withdraw Consent:</strong> Where we rely on your consent to process your personal information, you have the right to withdraw that consent at any time.</li>
+    </ul>
+    <p style="font-size: 1rem; margin-bottom: 1rem; line-height: 1.5; color: #555555;">
+        To exercise any of these rights, please contact us using the contact details provided below.
+    </p>
+
+    <h3 style="font-size: 1.75rem; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem; color: #333333;">5. Data Retention</h3>
+    <p style="font-size: 1rem; margin-bottom: 1rem; line-height: 1.5; color: #555555;">
+        We retain your personal information for as long as necessary to fulfill the purposes for which it was collected, including for the purposes of satisfying any legal, accounting, or reporting requirements. When we no longer need your information, we will securely delete or anonymize it.
+    </p>
+
+    <h3 style="font-size: 1.75rem; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem; color: #333333;">6. Security of Your Information</h3>
+    <p style="font-size: 1rem; margin-bottom: 1rem; line-height: 1.5; color: #555555;">
+        We implement appropriate technical and organizational measures to protect your personal information from unauthorized access, loss, misuse, or alteration. However, please remember that no method of transmission over the Internet or method of electronic storage is 100% secure.
+    </p>
+
+    <h3 style="font-size: 1.75rem; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem; color: #333333;">7. Third-Party Links</h3>
+    <p style="font-size: 1rem; margin-bottom: 1rem; line-height: 1.5; color: #555555;">
+        Our online platform may contain links to third-party websites not operated by us. We are not responsible for the privacy practices or content of these third-party sites. We encourage you to review the privacy policies of any third-party websites you visit.
+    </p>
+
+    <h3 style="font-size: 1.75rem; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem; color: #333333;">8. Children's Privacy</h3>
+    <p style="font-size: 1rem; margin-bottom: 1rem; line-height: 1.5; color: #555555;">
+        Our online platform is not intended for individuals under the age of 16. We do not knowingly collect personal information from children under 16. If we become aware that we have inadvertently received personal information from a child under 16, we will delete such information from our records.
+    </p>
+
+    <h3 style="font-size: 1.75rem; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem; color: #333333;">9. International Data Transfers</h3>
+    <p style="font-size: 1rem; margin-bottom: 1rem; line-height: 1.5; color: #555555;">
+        As a United States-based company, your information may be processed and stored in the United States or other countries where our service providers are located. By using our site, you understand that your information may be transferred to and processed in these locations, which may have different data protection laws than your country of residence. We ensure that appropriate safeguards are in place for such transfers.
+    </p>
+
+    <h3 style="font-size: 1.75rem; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem; color: #333333;">10. Changes to This Privacy Policy</h3>
+    <p style="font-size: 1rem; margin-bottom: 1rem; line-height: 1.5; color: #555555;">
+        We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will post any changes on this page and update the "last revised" date. We encourage you to review this Privacy Policy periodically.
+    </p>
+
+    <h3 style="font-size: 1.75rem; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem; color: #333333;">11. Contact Us</h3>
+    <p style="font-size: 1rem; margin-bottom: 1rem; line-height: 1.5; color: #555555;">
+        If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:
+    </p>
+    <p style="font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.5; color: #555555;">
+        <strong>Peak Preserve</strong><br>
+        Union Hill<br>
+        New York, New York, 11379<br>
+        USA
+    </p>
+</section>
+</main>
+<footer class="bg-foreground text-white py-8 rounded-t-[20px] shadow-neomorph-inset mt-12">
+    <div class="container mx-auto px-4 text-center">
+      <p class="font-light text-sm">&copy; 2024 Peak Preserve. All rights reserved.</p>
+      <div class="flex justify-center space-x-6 mt-4 text-sm">
+        <a href="./privacy.html" class="hover:text-primary transition-colors">Privacy Policy</a>
+        <a href="./tos.html" class="hover:text-primary transition-colors">Terms of Service</a>
+      </div>
+    </div>
+    <div id="cookie-consent" class="fixed bottom-0 left-0 right-0 bg-gray-800 text-white p-4 flex items-center justify-between z-50">
+      <p class="text-sm">We use cookies to ensure you get the best experience on our website. By using our site, you agree to our <a href="./privacy.html" class="text-primary hover:underline">Privacy Policy</a>.</p>
+      <button id="accept-cookies" class="bg-primary text-white px-4 py-2 rounded-[10px] text-sm hover:bg-primary-hover transition-colors">Accept</button>
+    </div>
+  </footer>
+
+  <script>
+    // Navigation bar scroll effect
+    window.addEventListener('scroll', function() {
+      const header = document.querySelector('header');
+      if (window.scrollY > 50) {
+        header.classList.add('nav-solid', 'bg-[var(--color-background)]', 'shadow-neomorph');
+        header.classList.remove('nav-transparent');
+      } else {
+        header.classList.remove('nav-solid', 'bg-[var(--color-background)]', 'shadow-neomorph');
+        header.classList.add('nav-transparent');
+      }
+    });
+
+    // Mobile navigation toggle
+    document.querySelector('header button').addEventListener('click', function() {
+      const navLinks = document.querySelector('header .md\\:flex');
+      navLinks.classList.toggle('hidden');
+      navLinks.classList.toggle('flex');
+      navLinks.classList.toggle('flex-col');
+      navLinks.classList.toggle('absolute');
+      navLinks.classList.toggle('top-full');
+      navLinks.classList.toggle('left-0');
+      navLinks.classList.toggle('right-0');
+      navLinks.classList.toggle('bg-[var(--color-background)]');
+      navLinks.classList.toggle('shadow-dramatic');
+      navLinks.classList.toggle('p-4');
+      navLinks.classList.toggle('space-y-4');
+      navLinks.classList.toggle('md:space-y-0');
+    });
+
+    // Cookie Consent
+    const consentPrefix = 'consent_v3_';
+    const cookieName = `${consentPrefix}user_accepted_cookies`;
+    const cookieConsent = document.getElementById('cookie-consent');
+    const acceptCookiesBtn = document.getElementById('accept-cookies');
+
+    function getCookie(name) {
+      const nameEQ = name + "=";
+      const ca = document.cookie.split(';');
+      for(let i = 0; i < ca.length; i++) {
+        let c = ca[i];
+        while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+        if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+      }
+      return null;
+    }
+
+    function setCookie(name, value, days) {
+      let expires = "";
+      if (days) {
+        const date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        expires = "; expires=" + date.toUTCString();
+      }
+      document.cookie = name + "=" + (value || "") + expires + "; path=/; SameSite=Lax";
+    }
+
+    if (!getCookie(cookieName)) {
+      cookieConsent.style.display = 'flex';
+    }
+
+    acceptCookiesBtn.addEventListener('click', function() {
+      setCookie(cookieName, 'true', 365); // Store for 1 year
+      cookieConsent.style.display = 'none';
+    });
+
+    // Intersection Observer for scroll animations
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.2
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('scrolled-into-view');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll('[data-observe]').forEach(el => {
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>
