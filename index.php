@@ -62,6 +62,16 @@
         background: linear-gradient(to right, var(--color-primary-hover), oklch(0.63 0.15 95));
     }
   </style>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YTP08B4056"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YTP08B4056');
+</script>
+
 </head>
 <body class="selection:bg-[var(--color-primary)] selection:text-white">
   <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-in-out nav-transparent">
